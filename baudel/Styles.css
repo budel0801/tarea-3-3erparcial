@@ -1,0 +1,114 @@
+/* Estilos globales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: url('budel.jpg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #ffffff;
+}
+
+/* Contenedor principal con fondo negro translúcido */
+.container {
+    background-color: rgba(0, 0, 0, 0.8); /* Fondo negro translúcido */
+    padding: 40px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Título */
+h1 {
+    color: #e74c3c; /* Rojo para el título */
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/* Descripción */
+p {
+    color: #bdc3c7; /* Gris claro para la descripción */
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+/* Estilo del formulario */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Estilo del input de monto */
+input[type="text"] {
+    width: 80%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    text-align: center;
+    background-color: #414a53; /* Gris oscuro para el fondo del input */
+    color: #fff; /* Blanco para el texto */
+}
+
+input[type="text"]:focus {
+    outline: none;
+    border: 2px solid #e74c3c; /* Rojo al enfocar */
+}
+
+/* Estilo del select (porcentaje) */
+select {
+    width: 80%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    background-color: #34495e; /* Gris oscuro */
+    color: #fff;
+}
+
+select:focus {
+    outline: none;
+    border: 2px solid #e74c3c; /* Rojo al enfocar */
+}
+
+/* Estilo del botón */
+button {
+    width: 80%;
+    padding: 15px;
+    background-color: #e74c3c; /* Rojo para el botón */
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #c0392b; /* Rojo más oscuro al pasar el ratón */
+}
+
+button:focus {
+    outline: none;
+}
+
+/* Estilo para el resultado */
+#Resultado {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #e74c3c; /* Rojo para el resultado */
+}

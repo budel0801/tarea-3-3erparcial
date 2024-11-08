@@ -1,0 +1,43 @@
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Calculadora de Préstamos</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>Calculadora de Préstamos</h1>
+            <p>Ingresa el monto y selecciona el porcentaje</p>
+            <form>
+                <!-- Campo para ingresar el monto -->
+                <input type="text" id="Entrada" placeholder="Ingresa el monto">
+
+                <!-- Selector para elegir el porcentaje -->
+                <label for="porcentaje">Selecciona un porcentaje:</label>
+                <select id="porcentaje">
+                    <option value="0.05">5%</option>
+                    <option value="0.10">10%</option>
+                    <option value="0.15">15%</option>
+                    <option value="0.20">20%</option>
+                    <option value="0.30">30%</option>
+                    <option value="0.30">40%</option>
+                    <option value="0.30">50%</option>
+                    <option value="0.30">60%</option>
+                    <option value="0.30">70%</option>
+                    <option value="0.30">80%</option>
+                    <option value="0.30">90%</option>
+                    <option value="0.30">100%</option>
+                </select>
+
+                <!-- Botón para calcular -->
+                <button type="button" id="Calcular">Calcular</button>
+            </form>
+
+            <!-- Espacio para mostrar el resultado -->
+            <p id="Resultado"></p>
+        </div>
+
+        <script src="Index.js"></script>
+    </body>
+</html>
